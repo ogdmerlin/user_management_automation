@@ -1,3 +1,6 @@
 // Purpose: Ignore images folder
+
+// Ignore images folder
+
 *images
 !images/
