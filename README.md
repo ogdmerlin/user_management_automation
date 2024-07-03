@@ -44,14 +44,20 @@ ogdmerlin; sudo, admin
 ./create_users.sh users.txt
 ```
 
-3. Verify the users and groups: After running the script, verify that the users and groups have been created correctly by checking the `/etc/passwd` and `/etc/group` files.
+#
+
+**Testing**
+
+Verify the users and groups: After running the script, verify that the users and groups have been created correctly by checking the `/etc/passwd` and `/etc/group` files.
 
 <img src="images/create_user.png">
 <img src="images/create_user2.png">
--
 
-verify that our script run as expected.
-cd into `/var/secure` where we placed our user and the random generated password for each user.
+**Verify user creation:**
+
+_Check /var/log/user_management.log for detailed logs of each operation._
+
+Access generated passwords securely from /var/secure/user_passwords.txt.
 <img src="images/user_passwd.png">
 
 #
